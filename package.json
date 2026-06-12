@@ -1,1 +1,19 @@
-{\n  "name": "jaber-bot",\n  "version": "1.0.0",\n  "description": "A professional Discord bot with moderation, tickets, and more",\n  "main": "src/index.js",\n  "type": "module",\n  "scripts": {\n    "start": "node src/index.js",\n    "dev": "nodemon src/index.js",\n    "test": "echo \"Error: no test specified\" && exit 1"\n  },\n  "keywords": [\n    "discord",\n    "bot",\n    "discord.js",\n    "moderation",\n    "tickets"\n  ],\n  "author": "Your Name",\n  "license": "MIT",\n  "dependencies": {\n    "discord.js": "^14.14.0",\n    "dotenv": "^16.3.1",\n    "mongoose": "^8.0.0"\n  },\n  "devDependencies": {\n    "nodemon": "^3.0.2"\n  }\n}\n
+{
+  "name": "jaber-bot",
+  "version": "1.0.0",
+  "description": "A professional Discord bot",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}cat package.json
